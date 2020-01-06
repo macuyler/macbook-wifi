@@ -4,8 +4,9 @@ This is a script for downloading and configuring the correct wireless drivers in
 ### Setup
 
 ```
-cd /usr/bin
-sudo git clone https://github.com/Macuyler/macbook-wifi.git
+git clone https://github.com/Macuyler/macbook-wifi.git
+cd macbook-wifi
+sudo cp macbook-wifi /usr/local/bin/
 ```
 
 Open a new terminal or run `. ~/.bashrc`
